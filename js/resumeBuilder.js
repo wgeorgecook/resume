@@ -5,20 +5,22 @@ This is empty on purpose! Your code to build the resume will go here.
  class Bio {
      constructor() {
         this.name = "William George Cook"
-        role : string
-        contacts : an object with
-              mobile: string
-              email: string
-              github: string
-              twitter: string (optional)
-              location: string
-        welcomeMessage: string
-        skills: array of strings
-        biopic: string url
-        display: function taking no parameters
+        this.role = "Access administrator"
+        this.contacts = {
+            mobile: "224-200-8895",
+            email: "wgeorgecook@gmail.com",
+            github: "https://www.github.com/wgeorgecook",
+            twitter: "@wgeorgecook",
+            location: "Placerville, CA"
+        }
+        this.welcomeMessage = "Thanks for stopping by!"
+        this.skills = ["Python", "Javascript", "HTML/CSS"]
+        this.biopic = "https://pbs.twimg.com/profile_images/968694136713826304/Qo7sgROq_400x400.jpg"
+        this.display = function() {}
      }
  }
 
+ /*
  class Education {
      constructor() {
         schools: array of objects with
@@ -59,3 +61,4 @@ This is empty on purpose! Your code to build the resume will go here.
         display: function taking no parameters
      }
  }
+ */
