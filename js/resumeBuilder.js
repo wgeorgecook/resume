@@ -74,19 +74,23 @@ This is empty on purpose! Your code to build the resume will go here.
      }
  }
 
-/*
+
  class Work {
      constructor() {
-        jobs: array of objects with
-            employer: string
-            title: string
-            location: string
-            dates: string (Can be 'in progress')
-            description: string
-        display: function taking no parameters
+        this.jobs = [
+            {
+                employer: "Tek Systems",
+                title: "Access Administrator",
+                location: "Rancho Cordova, California",
+                dates: "February 2018 - Present",
+                description: "Provision application and network account access. Moderate Powershell scripting",
+            }
+        ]
+        this.display = function() {}
      }
  }
 
+ /*
  class Projects {
      constructor() {
         projects: array of objects with
