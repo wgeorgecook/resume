@@ -90,15 +90,29 @@ This is empty on purpose! Your code to build the resume will go here.
      }
  }
 
- /*
+
  class Projects {
      constructor() {
-        projects: array of objects with
-            title: string
-            dates: string (works with a hyphen between them)
-            description: string
-            images: array with string urls
-        display: function taking no parameters
+        this.projects = [
+            {
+                title: "Pixel Art Maker",
+                dates: "January 2018",
+                description: "Make your own pixel art with this front end web app",
+                images: ["https://www.google.com"],
+            },
+            {
+                title: "Memory Game",
+                dates: "March 2018",
+                description: "Match cards to win the game!",
+                images: ["https://www.google.com"],
+            },
+            {
+                title: "Frogger Clone",
+                dates: "June 2018",
+                description: "Avoid the bugs and make it to the water!",
+                images: ["https://www.google.com"],
+            }
+        ]
+        this.display = function() {}
      }
  }
- */
