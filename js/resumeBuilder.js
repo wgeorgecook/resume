@@ -20,25 +20,61 @@ This is empty on purpose! Your code to build the resume will go here.
      }
  }
 
- /*
+
  class Education {
      constructor() {
-        schools: array of objects with
-            name: string
-            location: string
-            degree: string
-            majors: array of strings
-            dates: string (works with a hyphen between them)
-            url: string (optional)
-        onlineCourses: array of objects with
-            title: string
-            school: string
-            dates: string (works with a hyphen between them)
-            url: string
-        display: function taking no parameters
+        this.schools = [
+            {
+                name: "Bethel College",
+                location: "Mishawaka, Indiana",
+                degree: "Not applicable",
+                majors: ["Biology"],
+                dates: "September 2009 - May 2011",
+                url: "https://www.bethelcollege.edu",
+
+            },
+            {
+                name: "Indiana University South Bend",
+                location: "South Bend, Indiana",
+                degree: "Not applicable",
+                majors: ["New Media"],
+                dates: "September 2011 - May 2012",
+                url: "https://www.iusb.edu",
+
+            },
+            {
+                name: "Columbia College",
+                location: "Chicago, Illinois",
+                degree: "Not applicable",
+                majors: ["Film and Video"],
+                dates: "September 2012 - May 2013",
+                url: "https://www.colum.edu",
+
+            },
+            {
+                name: "University of Wisconsin - Parkside",
+                location: "Kenosha, Wisconsin",
+                degree: "Bachelor of Science",
+                majors: ["Biology"],
+                dates: "September 2014 - May 2015",
+                url: "https://www.uwp.edu",
+
+            },
+
+        ]
+        this.onlineCourses = [
+            {
+                title: "Front End Nano Degree",
+                school: "Udacity",
+                dates: "January 2018 - October 2018",
+                url: "https://www.udacity.com"
+            }
+                ]
+        this.display = function() {}
      }
  }
 
+/*
  class Work {
      constructor() {
         jobs: array of objects with
